@@ -72,10 +72,10 @@
             // 
             // btnGetProfile
             // 
-            this.btnGetProfile.Font = new System.Drawing.Font("Arial", 14F);
-            this.btnGetProfile.Location = new System.Drawing.Point(279, 487);
+            this.btnGetProfile.Font = new System.Drawing.Font("Arial", 12F);
+            this.btnGetProfile.Location = new System.Drawing.Point(157, 84);
             this.btnGetProfile.Name = "btnGetProfile";
-            this.btnGetProfile.Size = new System.Drawing.Size(120, 34);
+            this.btnGetProfile.Size = new System.Drawing.Size(100, 28);
             this.btnGetProfile.TabIndex = 1;
             this.btnGetProfile.Text = "Get Profile";
             this.btnGetProfile.UseVisualStyleBackColor = true;
@@ -100,7 +100,7 @@
             this.lbPossibleRevenue.BackColor = System.Drawing.Color.Transparent;
             this.lbPossibleRevenue.Font = new System.Drawing.Font("Arial", 16.25F);
             this.lbPossibleRevenue.ForeColor = System.Drawing.Color.White;
-            this.lbPossibleRevenue.Location = new System.Drawing.Point(8, 502);
+            this.lbPossibleRevenue.Location = new System.Drawing.Point(8, 496);
             this.lbPossibleRevenue.Name = "lbPossibleRevenue";
             this.lbPossibleRevenue.Size = new System.Drawing.Size(186, 25);
             this.lbPossibleRevenue.TabIndex = 0;
@@ -244,7 +244,7 @@
             this.lblSellValue.BackColor = System.Drawing.Color.Transparent;
             this.lblSellValue.Font = new System.Drawing.Font("Arial", 11F);
             this.lblSellValue.ForeColor = System.Drawing.Color.White;
-            this.lblSellValue.Location = new System.Drawing.Point(10, 527);
+            this.lblSellValue.Location = new System.Drawing.Point(10, 521);
             this.lblSellValue.Name = "lblSellValue";
             this.lblSellValue.Size = new System.Drawing.Size(36, 17);
             this.lblSellValue.TabIndex = 0;
@@ -252,10 +252,10 @@
             // 
             // btnExit
             // 
-            this.btnExit.Font = new System.Drawing.Font("Arial", 14F);
-            this.btnExit.Location = new System.Drawing.Point(279, 527);
+            this.btnExit.Font = new System.Drawing.Font("Arial", 12F);
+            this.btnExit.Location = new System.Drawing.Point(295, 84);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(120, 34);
+            this.btnExit.Size = new System.Drawing.Size(100, 28);
             this.btnExit.TabIndex = 1;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -263,10 +263,12 @@
             // 
             // txtID
             // 
-            this.txtID.Font = new System.Drawing.Font("Arial", 12.25F);
-            this.txtID.Location = new System.Drawing.Point(13, 572);
+            this.txtID.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
+            this.txtID.Font = new System.Drawing.Font("Arial", 10.25F);
+            this.txtID.Location = new System.Drawing.Point(194, 117);
+            this.txtID.MaxLength = 32;
             this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(386, 26);
+            this.txtID.Size = new System.Drawing.Size(201, 23);
             this.txtID.TabIndex = 3;
             this.txtID.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtID_KeyDown);
             // 
@@ -276,29 +278,29 @@
             this.lblID.BackColor = System.Drawing.Color.Transparent;
             this.lblID.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblID.ForeColor = System.Drawing.Color.White;
-            this.lblID.Location = new System.Drawing.Point(8, 547);
+            this.lblID.Location = new System.Drawing.Point(153, 118);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(95, 22);
+            this.lblID.Size = new System.Drawing.Size(35, 22);
             this.lblID.TabIndex = 0;
-            this.lblID.Text = "Steam ID:";
+            this.lblID.Text = "ID:";
             // 
             // lblNickname
             // 
-            this.lblNickname.AutoSize = true;
             this.lblNickname.BackColor = System.Drawing.Color.Transparent;
             this.lblNickname.Font = new System.Drawing.Font("Arial", 18.25F);
             this.lblNickname.ForeColor = System.Drawing.Color.White;
             this.lblNickname.Location = new System.Drawing.Point(152, 13);
             this.lblNickname.Name = "lblNickname";
-            this.lblNickname.Size = new System.Drawing.Size(0, 28);
+            this.lblNickname.Size = new System.Drawing.Size(248, 28);
             this.lblNickname.TabIndex = 4;
+            this.lblNickname.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // prgLoading
             // 
             this.prgLoading.Enabled = false;
-            this.prgLoading.Location = new System.Drawing.Point(157, 117);
+            this.prgLoading.Location = new System.Drawing.Point(12, 543);
             this.prgLoading.Name = "prgLoading";
-            this.prgLoading.Size = new System.Drawing.Size(238, 23);
+            this.prgLoading.Size = new System.Drawing.Size(388, 23);
             this.prgLoading.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
             this.prgLoading.TabIndex = 5;
             this.prgLoading.Visible = false;
@@ -333,11 +335,13 @@
             // 
             // btnInfo
             // 
-            this.btnInfo.Location = new System.Drawing.Point(372, 12);
+            this.btnInfo.BackColor = System.Drawing.Color.Transparent;
+            this.btnInfo.BackgroundImage = global::Inventory_Calculator.Properties.Resources.InfoIcon;
+            this.btnInfo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnInfo.Location = new System.Drawing.Point(263, 86);
             this.btnInfo.Name = "btnInfo";
             this.btnInfo.Size = new System.Drawing.Size(25, 25);
             this.btnInfo.TabIndex = 6;
-            this.btnInfo.Text = "i";
             this.btnInfo.UseVisualStyleBackColor = true;
             this.btnInfo.Click += new System.EventHandler(this.btnInfo_Click);
             // 
@@ -347,7 +351,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Inventory_Calculator.Properties.Resources.Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(412, 610);
+            this.ClientSize = new System.Drawing.Size(412, 576);
             this.Controls.Add(this.btnInfo);
             this.Controls.Add(this.prgLoading);
             this.Controls.Add(this.lblNickname);
@@ -372,8 +376,9 @@
             this.Controls.Add(this.lblValue1);
             this.Controls.Add(this.lblItemsValue);
             this.Controls.Add(this.lblInventoryValue);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CS:GO Inventory Calculator";

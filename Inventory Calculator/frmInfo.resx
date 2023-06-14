@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label3.Text" xml:space="preserve">
-    <value>This program grabs the values present on csgobackpack.net and presents them in a compacted fashion for quick consulting.
+    <value>This app presents the values present on csgobackpack.net in a compacted fashion for quick consulting.
 
-Provided values update once every day at 8:30 GMT, and may not reflect real-time prices.
+Shown values update every 8 hours, and therefore may not reflect real-time prices.
 
-Also note that the possible revenue value is calculated based on the flat 15% cut valve takes for every sale. Actual revenue may vary slightly.</value>
+"Possible Revenue" value is calculated based on the flat 15% cut valve takes for every sale. Actual revenue may vary slightly.</value>
   </data>
 </root>

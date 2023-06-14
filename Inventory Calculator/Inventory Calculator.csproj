@@ -158,5 +158,8 @@
   <ItemGroup>
     <None Include="bin\HtmlAgilityPack.dll" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-icon-design-info-grafic-5b487ab61c65f1.6410590815314766621163.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
